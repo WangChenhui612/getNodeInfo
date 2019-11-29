@@ -97,6 +97,8 @@ def chkfunc(uname, upasswd, filename):
             # tb.add_row(["Hobart", 1357, 205556, 619.5])
 
             print(tb)
+            # with open("data.txt", "w") as f:
+            #     f.write(data)
 
             transport.close()
 
